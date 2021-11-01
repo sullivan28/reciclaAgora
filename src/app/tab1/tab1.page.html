@@ -1,0 +1,64 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="medium">
+      <ion-title>Cadastro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-item>
+    <ion-label position="floating">Nome</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Endereço</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Telefone</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">CPF/CNPJ</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Senha</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Qual Material Reciclar</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="papel">Papel</ion-select-option>
+      <ion-select-option value="eletronicos">Eletrônicos</ion-select-option>
+      <ion-select-option value="lampadas">Lâmpadas</ion-select-option>
+      <ion-select-option value="isopor">Isopor</ion-select-option>
+      <ion-select-option value="latinhas">Latinhas Aluminio</ion-select-option>
+      <ion-select-option value="vidros">Vidro</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Informe seu tipo</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="empresa">Empresa</ion-select-option>
+      <ion-select-option value="catador">Catador</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+
+  <ion-button (click) ="bntClicked()"  shape="round" class="ion-activatable ripple-parent" color="medium" expand="block	" >
+    Cadastrar
+    <ion-ripple-effect></ion-ripple-effect>
+  </ion-button>

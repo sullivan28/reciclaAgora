@@ -1,0 +1,7 @@
+{
+  "name": "reciclaAgora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
